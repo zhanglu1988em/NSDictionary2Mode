@@ -7,21 +7,30 @@
 //
 
 #import "ViewController.h"
+#import "CarGroup.h"
 
 @interface ViewController ()
+
+@property (nonatomic ,strong) NSArray *carGroup;
 
 @end
 
 @implementation ViewController
 
+-(NSArray* ) carGroup
+{
+    if (_carGroup == nil) {
+        _carGroup = [CarGroup carGroups];
+    }
+    return _carGroup;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@",self.carGroup);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

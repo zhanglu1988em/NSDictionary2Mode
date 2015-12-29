@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2940120B1C326E3F0063BBF4 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940120A1C326E3F0063BBF4 /* NSArray+Log.m */; };
 		29C50D351C325E7800DE8BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C50D341C325E7800DE8BBD /* main.m */; };
 		29C50D381C325E7800DE8BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C50D371C325E7800DE8BBD /* AppDelegate.m */; };
 		29C50D3B1C325E7800DE8BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C50D3A1C325E7800DE8BBD /* ViewController.m */; };
 		29C50D3E1C325E7800DE8BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C50D3C1C325E7800DE8BBD /* Main.storyboard */; };
 		29C50D401C325E7800DE8BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C50D3F1C325E7800DE8BBD /* Assets.xcassets */; };
 		29C50D431C325E7800DE8BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C50D411C325E7800DE8BBD /* LaunchScreen.storyboard */; };
+		29C50D4B1C325E8A00DE8BBD /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29C50D4A1C325E8A00DE8BBD /* cars_total.plist */; };
+		29C50D4E1C3260E300DE8BBD /* CarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C50D4D1C3260E300DE8BBD /* CarGroup.m */; };
+		29C50D511C32661D00DE8BBD /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C50D501C32661D00DE8BBD /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294012091C326E3F0063BBF4 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		2940120A1C326E3F0063BBF4 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		29C50D301C325E7800DE8BBD /* KvcTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KvcTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C50D341C325E7800DE8BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29C50D361C325E7800DE8BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,11 @@
 		29C50D3F1C325E7800DE8BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29C50D421C325E7800DE8BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29C50D441C325E7800DE8BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C50D4A1C325E8A00DE8BBD /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		29C50D4C1C3260E300DE8BBD /* CarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarGroup.h; sourceTree = "<group>"; };
+		29C50D4D1C3260E300DE8BBD /* CarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarGroup.m; sourceTree = "<group>"; };
+		29C50D4F1C32661D00DE8BBD /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		29C50D501C32661D00DE8BBD /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +74,14 @@
 				29C50D391C325E7800DE8BBD /* ViewController.h */,
 				29C50D3A1C325E7800DE8BBD /* ViewController.m */,
 				29C50D3C1C325E7800DE8BBD /* Main.storyboard */,
+				29C50D4C1C3260E300DE8BBD /* CarGroup.h */,
+				29C50D4D1C3260E300DE8BBD /* CarGroup.m */,
+				29C50D4F1C32661D00DE8BBD /* Car.h */,
+				29C50D501C32661D00DE8BBD /* Car.m */,
+				294012091C326E3F0063BBF4 /* NSArray+Log.h */,
+				2940120A1C326E3F0063BBF4 /* NSArray+Log.m */,
 				29C50D3F1C325E7800DE8BBD /* Assets.xcassets */,
+				29C50D4A1C325E8A00DE8BBD /* cars_total.plist */,
 				29C50D411C325E7800DE8BBD /* LaunchScreen.storyboard */,
 				29C50D441C325E7800DE8BBD /* Info.plist */,
 				29C50D331C325E7800DE8BBD /* Supporting Files */,
@@ -138,6 +156,7 @@
 			files = (
 				29C50D431C325E7800DE8BBD /* LaunchScreen.storyboard in Resources */,
 				29C50D401C325E7800DE8BBD /* Assets.xcassets in Resources */,
+				29C50D4B1C325E8A00DE8BBD /* cars_total.plist in Resources */,
 				29C50D3E1C325E7800DE8BBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C50D511C32661D00DE8BBD /* Car.m in Sources */,
+				29C50D4E1C3260E300DE8BBD /* CarGroup.m in Sources */,
 				29C50D3B1C325E7800DE8BBD /* ViewController.m in Sources */,
+				2940120B1C326E3F0063BBF4 /* NSArray+Log.m in Sources */,
 				29C50D381C325E7800DE8BBD /* AppDelegate.m in Sources */,
 				29C50D351C325E7800DE8BBD /* main.m in Sources */,
 			);
@@ -298,6 +320,7 @@
 				29C50D491C325E7800DE8BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
